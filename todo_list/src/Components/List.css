@@ -1,0 +1,17 @@
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.todobox{
+    display: grid;
+    grid-template-columns: 4% 75% 10% 10%;
+}
+
+@media (max-width:620px) {
+    .mobile_box{
+        width: 100vw;
+        height: 100vh;
+    }
+}
